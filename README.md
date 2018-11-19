@@ -33,7 +33,7 @@ TODO: replace the loop by a recursive function
 Ones you have all the pieces of data calculated by declarative expressions/functions you need to merge all the data and return the result. You can delcare a set of constants with all the data, then merged using js destructuring and then returned, like the code above, but you still has one function with body. That doesn't seems so dangerous, because you can say that the body is just for generate constants and combined in the return expression, but in the future, when there is something quick to resolve, maybe the one to do the change is not even you, is a coworker that is not so familiar with functional programming, and they could add more sentences and make the functional approach looks dirty. So in my opinion we need to remove all the bodies. In this case we can do:
 
 ```
-TODO: remove constants using false function arguments and hide them using unary, binar
+TODO: remove constants using fake function optional arguments and hide them using unary, binar
 ```
 
 

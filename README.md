@@ -6,7 +6,7 @@ In my opinion we can go into the path of functional programming with javascript 
 
 ## 1) Avoid Mutation
 
-Stop mutating objects, create new one instead, this is currently really simple with destructuring js capabilities. And stop using variables and start using constant (change `var` by `const` please). This is the most important step and the one give you most of the benefints of functional programming: avoiding some evil side effects.
+Stop mutating objects, create new one instead, this is currently really simple with destructuring js capabilities. And stop using variables and start using constant (change `var` by `const` please). This is the most important step and the one give you most of the benefints of functional programming: avoiding most evil side effects.
 
 ## 2) Avoid functions with bodies
 
